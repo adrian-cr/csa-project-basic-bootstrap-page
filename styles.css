@@ -1,0 +1,79 @@
+header {
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  height: 100%;
+}
+
+.logo {
+  max-height: 50px !important;
+  width: 100%;
+}
+
+.cust-bg {
+  background-color: #01ff70;
+}
+
+.cust-bg-light {
+  background-color: #a6ffb4;
+}
+
+.nav-link:hover {
+  color:#022411 !important
+}
+
+#overlay {
+  background-color: #ffffff60;
+  color: #022411;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 42%;
+  z-index: 1;
+}
+
+#carousel {
+  height: 90vh
+}
+
+#carousel .carousel-item {
+  max-height: 100% !important;
+  img {
+    height: 90vh;
+    max-height: 100% !important;
+  }
+}
+
+.carousel-control {
+  z-index: 5 !important;
+}
+
+/* GALLERY CAROUSEL */
+.card {
+  background-color: #e0ffe4 !important;
+}
+
+.card h3 {
+  margin: 20px auto;
+}
+
+.card img {
+  height: 40vh;
+}
+
+/* FORM */
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 991px) {
+  .cust-bg-secondary {
+    background-color: #a6ffb4;
+  }
+}
